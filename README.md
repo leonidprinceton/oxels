@@ -1,10 +1,10 @@
 # Aligning Blurry Images via Overcomplete Pixels
 
-<img src="demo/img/tutorial.png" width=75% height=75%>
+<img src="demo/img/tutorial.png" width=90% height=90%>
 
-This repository contains tutorial-style code for reproducing the main image alignment results from our preprint [Aligning Motion-Blurred Images Using Contrastive Learning on Overcomplete Pixels](https://arxiv.org/abs/2410.07410). 
+This repository contains tutorial-style code for reproducing the main results from our preprint [Aligning Motion-Blurred Images Using Contrastive Learning on Overcomplete Pixels](https://arxiv.org/abs/2410.07410) demonstrating accurate image alignment under extreme motion blur.
 
-*TLDR*: We propose a new contrastive objective for learning overcomplete pixel-level features that are invariant to motion blur. Other invariances (e.g., pose, illumination, or weather) can be learned by applying the corresponding transformations on unlabeled images during self-supervised training. The details of the method are described in our preprint:
+**TL;DR**: We propose a new contrastive objective for learning overcomplete pixel-level features that are invariant to motion blur. Other invariances (e.g., pose, illumination, or weather) can be learned by applying the corresponding transformations on unlabeled images during self-supervised training. The details of the method are described in our preprint:
 
 Pogorelyuk, L., & Radev, S. T. (2024).
 Aligning Motion-Blurred Images Using Contrastive Learning on Overcomplete Pixels. 
