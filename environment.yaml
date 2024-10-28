@@ -1,0 +1,13 @@
+name: oxels
+dependencies:
+  - python==3.12
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - scipy
+    - pillow
+    - opencv-python
+    - hnswlib=0.8.0
+    - tensorflow=2.16.1
+    - keras
